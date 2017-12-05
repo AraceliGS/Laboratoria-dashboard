@@ -63,8 +63,8 @@ function getTargetedStudents(students) {
   var targetedStudents = 0;
   var totalStudents = students.length;
 
-  metTech = metTech();
-  metHse = metHse();
+  var metTech = metTech();
+  var metHse = metHse();
 
   for (var i = 0; i < totalStudents; i++) {
     var student = students[i];
