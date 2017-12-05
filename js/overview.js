@@ -263,6 +263,7 @@ function getHseAverage(students) {
 
 function getHseTargetedStudents(students) {
   var targetedStudents = 0;
+  var metHse = calcMetHse();
 
   for (var i = 0, l = students.length; i < l; i++) {
     var student = students[i];
